@@ -54,10 +54,8 @@ Congratulations! You have won a free prize. Claim now!
   "input": "Congratulations! You have won a free prize. Claim now!",
   "prediction": "Spam"
 }
-```json
-
-
-### Setup Instructions
+  
+Setup Instructions
 
 ️1.Clone the repository
 git clone <https://github.com/Salahudheen0007/AI-Assignment>
