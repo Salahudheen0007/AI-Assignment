@@ -40,17 +40,24 @@
 
 * The model is deployed using FastAPI and can be accessed through an API.
   
-## Setup Instructions
+# Setup Instructions
 ️1.Clone the Repository
 * git clone <https://github.com/Salahudheen0007/AI-Assignment>
 * cd AI-Assignment
+
+
 2.Create a virtual environment
 * python -m venv venv
+
+
 ️3.Activate the environment
 * Windows : venv\Scripts\activate
 * Mac/Linux : source venv/bin/activate
+
 4.Install dependencies
 * pip install -r requirements.txt
+
+
 5.Run the API
 * uvicorn app:app --reload
 
