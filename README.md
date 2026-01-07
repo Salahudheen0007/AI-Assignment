@@ -39,21 +39,6 @@
 * The trained model predicts whether a message is Spam or Not Spam.
 
 * The model is deployed using FastAPI and can be accessed through an API.
-
-## API Usage
-
-
-POST /predict
-### Example Input
-
-Congratulations! You have won a free prize. Claim now!
-
-### Output
-```json
-{
-  "input": "Congratulations! You have won a free prize. Claim now!",
-  "prediction": "Spam"
-}
   
 Setup Instructions
 
@@ -73,3 +58,17 @@ uvicorn app:app --reload
 Open in your browser:
 
 http://127.0.0.1:8000/docs
+## API Usage
+
+
+POST /predict
+### Example Input
+
+Congratulations! You have won a free prize. Claim now!
+
+### Output
+```json
+{
+  "input": "Congratulations! You have won a free prize. Claim now!",
+  "prediction": "Spam"
+}
