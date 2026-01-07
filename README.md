@@ -54,6 +54,7 @@ Congratulations! You have won a free prize. Claim now!
   "input": "Congratulations! You have won a free prize. Claim now!",
   "prediction": "Spam"
 }
+```json
 
 
 ### Setup Instructions
