@@ -42,16 +42,35 @@
 
 ## API Usage
 
-### Endpoint
 
 POST /predict
 ### Example Input
 
 Congratulations! You have won a free prize. Claim now!
 
-### Example Output
+### Output
 ```json
 {
   "input": "Congratulations! You have won a free prize. Claim now!",
   "prediction": "Spam"
 }
+
+
+### Setup Instructions
+
+️1.Clone the repository
+git clone <https://github.com/Salahudheen0007/AI-Assignment>
+cd AI-Assignment
+2.Create a virtual environment
+python -m venv venv
+️3.Activate the environment
+Windows : venv\Scripts\activate
+Mac/Linux : source venv/bin/activate
+4.Install dependencies
+pip install -r requirements.txt
+5.Run the API
+uvicorn app:app --reload
+
+Open in your browser:
+
+http://127.0.0.1:8000/docs
