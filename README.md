@@ -51,7 +51,7 @@
 
 
 ️3.Activate the environment
-* Windows : venv\Scripts\activate
+* Windows : venv\scripts\activate
 * Mac/Linux : source venv/bin/activate
 
 4.Install dependencies
