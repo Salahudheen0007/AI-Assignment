@@ -18,15 +18,40 @@
 
 ## Model Used
 
-Multiple models were trained and evaluated:
 
-Naive Bayes
+* Naive Bayes
 
-Logistic Regression
+* Logistic Regression
 
-Random Forest
+* Random Forest
 
-XGBoost
+* XGBoost
 
-Among them, Logistic Regression was selected as the final model because it showed the best balance of precision and recall using the F1-score metric.
+### Among them, Logistic Regression  was selected as the final model because both Logistic Regression and Random Forest showed the best balance of precision and recall using the F1-score metric.And chose Logistic Regression for deployment
 
+
+## How the system works(basic)
+
+* Messages are cleaned using Lowercasing,Removing punctuation,Stopword removal and Lemmatization
+
+* Text is converted into numbers using CountVectorizer.
+
+* The trained model predicts whether a message is Spam or Not Spam.
+
+* The model is deployed using FastAPI and can be accessed through an API.
+
+## API Usage
+
+### Endpoint
+
+POST /predict
+### Example Input
+
+Congratulations! You have won a free prize. Claim now!
+
+### Example Output
+```json
+{
+  "input": "Congratulations! You have won a free prize. Claim now!",
+  "prediction": "Spam"
+}
